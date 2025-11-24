@@ -38,9 +38,9 @@ def contains_any(text, keywords):
 c1, c2 = st.columns(2)
 with c1:
     f_fx   = st.file_uploader("MUC49_1201.xlsx  (FX gốc)", type=["xlsx"])
-    f_a    = st.file_uploader("Muc21_1201.xlsx (bảng A)", type=["xlsx"])
+    f_a    = st.file_uploader("Muc20_1201.xlsx (bảng A)", type=["xlsx"])
 with c2:
-    f_b    = st.file_uploader("Muc22_1201.xlsx (bảng B)", type=["xlsx"])
+    f_b    = st.file_uploader("Muc21_1201.xlsx (bảng B)", type=["xlsx"])
     f_m19  = st.file_uploader("Muc19_1201.xlsx (bảng 19)", type=["xlsx"])
 
 run = st.button("▶️ Chạy", type="primary")
