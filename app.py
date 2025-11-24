@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title="FX kiểm toán 1201", layout="wide")
+st.set_page_config(page_title="Nghiệp vụ mua bán vàng ngoại tệ", layout="wide")
 st.title("💱 Xử lý FX 1201 — Streamlit")
 st.caption("Chỉ hỗ trợ .xlsx (engine openpyxl). Tải 4 file bên dưới rồi bấm **Chạy**.")
 
